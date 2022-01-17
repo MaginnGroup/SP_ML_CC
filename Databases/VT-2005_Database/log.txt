@@ -1,0 +1,188 @@
+
+Warning: Partial match found using Name.
+	Index: 78
+	Name: 2,2,4,4,6,8,8-HEPTAMETHYLNONANE
+	CAS Number: 4390-04-09 00:00:00
+	Molar Mass: 226.45
+	CIRpy Name: 2,2,4,4,6,8,8-Heptamethylnonane
+	CIRpy CAS Number: 4390-04-9
+	CIRpy Molar Mass: 226.4446
+	Action: compoud CAS number changed to 4390-04-9.
+	Reason:  Wrong CAS number in the VT-2005 database (probably an unwanted conversion to date format).
+
+Warning: Partial match found using Name.
+	Index: 158
+	Name: 2-METHYL-1-HEXENE
+	CAS Number: 6094-06-2
+	Molar Mass: 98.19
+	CIRpy Name: 2-Methylhex-1-ene
+	CIRpy CAS Number: 6094-02-6
+	CIRpy Molar Mass: 98.1876
+	Action: compoud CAS number changed to 6094-02-6.
+	Reason:  Wrong CAS number in the VT-2005 database (small typo).
+
+Warning: Partial match found using Name.
+	Index: 162
+	Name: CIS-3-HEPTENE
+	CAS Number: 7642-10-06 00:00:00
+	Molar Mass: 98.19
+	CIRpy Name: (Z)-hept-3-ene
+	CIRpy CAS Number: 7642-10-6
+	CIRpy Molar Mass: 98.1876
+	Action: compoud CAS number changed to 7642-10-6.
+	Reason:  Wrong CAS number in the VT-2005 database (probably an unwanted conversion to date format).
+
+Warning: Different CIRpy matches depending on weather Name (#1) or CAS Number (#2) is used.
+	Index: 190
+	Name: VINYLCYCLOHEXENE
+	CAS Number: 100-40-3
+	Molar Mass: 108.18
+	CIRpy Name #1: 1-ETHENYLCYCLOHEXENE
+	CIRpy CAS Number #1: 2622-21-1
+	CIRpy Molar Mass #1: 108.1828
+	CIRpy Name #2: 4-Ethenylcyclohexene
+	CIRpy CAS Number #2: 92619-43-7
+	CIRpy Molar Mass #2: 108.1828
+	Action: compoud name changed to 4-Vinylcyclohexene.
+	Reason:  Name change to better describe functional group positions.
+
+Warning: Different CIRpy matches depending on weather Name (#1) or CAS Number (#2) is used.
+	Index: 426
+	Name: CIS-CROTONALDEHYDE
+	CAS Number: 15798-64-8
+	Molar Mass: 70.09
+	CIRpy Name #1: (Z)-but-2-enal
+	CIRpy CAS Number #1: 4170-30-3
+	CIRpy Molar Mass #1: 70.0908
+	CIRpy Name #2: (E)-but-2-enal
+	CIRpy CAS Number #2: 123-73-9
+	CIRpy Molar Mass #2: 70.0908
+	Action: compoud CAS number changed to 4170-30-3.
+	Reason:  Wrong CAS number in the VT-2005 database (incorrect stereoisomer).
+
+Warning: Different CIRpy matches depending on weather Name (#1) or CAS Number (#2) is used.
+	Index: 565
+	Name: HEXYLENE-GLYCOL
+	CAS Number: 107-41-5
+	Molar Mass: 118.18
+	CIRpy Name #1: HEXANE-1,6-DIOL
+	CIRpy CAS Number #1: 140434-69-1
+	CIRpy Molar Mass #1: 118.1754
+	CIRpy Name #2: 2-Methylpentane-2,4-diol
+	CIRpy CAS Number #2: 107-41-5
+	CIRpy Molar Mass #2: 118.1754
+	Action: compoud name changed to 2-Methylpentane-2,4-diol.
+	Reason:  Name change to better describe functional group positions.
+
+Warning: Different CIRpy matches depending on weather Name (#1) or CAS Number (#2) is used.
+	Index: 906
+	Name: TOLUENEDIAMINE
+	CAS Number: 95-80-7
+	Molar Mass: 122.17
+	CIRpy Name #1: 3-methylbenzene-1,2-diamine
+	CIRpy CAS Number #1: 59007-80-6
+	CIRpy Molar Mass #1: 122.1694
+	CIRpy Name #2: 4-methylbenzene-1,3-diamine
+	CIRpy CAS Number #2: 12236-56-5
+	CIRpy Molar Mass #2: 122.1694
+	Action: compoud name changed to 4-methylbenzene-1,3-diamine.
+	Reason:  Name change to better describe functional group positions.
+
+Warning: Partial match found using Name.
+	Index: 1000
+	Name: DI-N-OCTYL-SULFIDE
+	CAS Number: 288761
+	Molar Mass: 258.51
+	CIRpy Name: 1-octylsulfanyloctane
+	CIRpy CAS Number: 2690-08-6
+	CIRpy Molar Mass: 258.5046
+	Action: compoud CAS number changed to 2690-08-6.
+	Reason:  Wrong CAS number in the VT-2005 database (probably an unwanted conversion to date format).
+
+Warning: Partial match found using Name.
+	Index: 1057
+	Name: ETHYLENE-GLYCOL-DIACRYLATE
+	CAS Number: 136911
+	Molar Mass: 170.16
+	CIRpy Name: 2-prop-2-enoyloxyethyl prop-2-enoate
+	CIRpy CAS Number: 136261-59-1
+	CIRpy Molar Mass: 206.195
+	Action: compoud CAS number changed to 2274-11-5.
+	Reason:  Wrong CAS number in the VT-2005 database (probably an unwanted conversion to date format).
+
+Warning: Partial match found using Name.
+	Index: 1077
+	Name: HYDROGEN-SULFIDE
+	CAS Number: 2148878
+	Molar Mass: 34.08
+	CIRpy Name: hydrogen sulfide
+	CIRpy CAS Number: 11144-15-3
+	CIRpy Molar Mass: 34.0758
+	Action: compoud CAS number changed to 7783-06-4.
+	Reason:  Wrong CAS number in the VT-2005 database (probably an unwanted conversion to date format).
+
+Warning: Partial match found using Name.
+	Index: 1080
+	Name: PHOSPHORUS-TRICHLORIDE
+	CAS Number: 2125683
+	Molar Mass: 137.33
+	CIRpy Name: trichlorophosphane
+	CIRpy CAS Number: 11082-95-4
+	CIRpy Molar Mass: 137.3328
+	Action: compoud CAS number changed to 7719-12-2.
+	Reason:  Wrong CAS number in the VT-2005 database (probably an unwanted conversion to date format).
+
+Warning: Partial match found using Name.
+	Index: 1106
+	Name: THIONYL-CHLORIDE
+	CAS Number: 2125597
+	Molar Mass: 118.97
+	CIRpy Name: Thionyl dichloride
+	CIRpy CAS Number: 7719-09-7
+	CIRpy Molar Mass: 118.9654
+	Action: compoud CAS number changed to 7719-09-7.
+	Reason:  Wrong CAS number in the VT-2005 database (probably an unwanted conversion to date format).
+
+Warning: Partial match found using Name.
+	Index: 1240
+	Name: SEC-BUTYL-ACRYLATE
+	CAS Number: 2998-08-05 00:00:00
+	Molar Mass: 128.17
+	CIRpy Name: butan-2-yl prop-2-enoate
+	CIRpy CAS Number: 2998-08-5
+	CIRpy Molar Mass: 128.1706
+	Action: compoud CAS number changed to 2998-08-5.
+	Reason:  Wrong CAS number in the VT-2005 database (probably an unwanted conversion to date format).
+
+Warning: Partial match found using Name.
+	Index: 1259
+	Name: N-OCTADECYLBENZENE
+	CAS Number: 4445-07-02 00:00:00
+	Molar Mass: 330.60
+	CIRpy Name: Octadecylbenzene
+	CIRpy CAS Number: 4445-07-2
+	CIRpy Molar Mass: 330.5958
+	Action: compoud CAS number changed to 4445-07-2.
+	Reason:  Wrong CAS number in the VT-2005 database (probably an unwanted conversion to date format).
+
+Warning: No match found using CIRpy.
+	Index: 1692
+	Name: DIMERCAPTOETHYL-ETHER
+	CAS Number: 91352
+	Molar Mass: 138.25
+	Action: compoud CAS number changed to 2150-02-9.
+	Reason:  Wrong CAS number in the VT-2005 database (probably an unwanted conversion to date format).
+
+Warning: Different CIRpy matches depending on weather Name (#1) or CAS Number (#2) is used.
+	Index: 1697
+	Name: METHYL-ETHANOLAMINE
+	CAS Number: 109-83-1
+	Molar Mass: 75.11
+	CIRpy Name #1: 1-Aminopropan-2-ol
+	CIRpy CAS Number #1: 78-96-6
+	CIRpy Molar Mass #1: 75.1102
+	CIRpy Name #2: 2-Methylaminoethanol
+	CIRpy CAS Number #2: 109-83-1
+	CIRpy Molar Mass #2: 75.1102
+	Action: compoud name changed to 2-Methylaminoethanol.
+	Reason:  Name change to better describe functional group positions.
