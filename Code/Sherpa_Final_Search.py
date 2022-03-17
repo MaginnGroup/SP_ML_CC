@@ -59,27 +59,27 @@ import sherpa
 ######################################################
 
 # Database
-database='VP_mlDatabase'
+database='RI_20_mlDatabase'
 
 # Defining Hyperparameter space
 hyperParameters=[sherpa.Choice(name='actFunction',range=['swish']),
-                 sherpa.Choice(name='conv1_Filters',range=[5]),
-                 sherpa.Choice(name='conv1_kernelSize',range=[6]),
-                 sherpa.Choice(name='conv1_strides',range=[3]),
-                 sherpa.Choice(name='pool1_size',range=[3]),
-                 sherpa.Choice(name='pool1_type',range=['avg']),
-                 sherpa.Choice(name='conv2_Filters',range=[1]),
+                 sherpa.Choice(name='conv1_Filters',range=[1]),
+                 sherpa.Choice(name='conv1_kernelSize',range=[3]),
+                 sherpa.Choice(name='conv1_strides',range=[4]),
+                 sherpa.Choice(name='pool1_size',range=[1]),
+                 sherpa.Choice(name='pool1_type',range=['max']),
+                 sherpa.Choice(name='conv2_Filters',range=[4]),
                  sherpa.Choice(name='conv2_kernelSize',range=[5]),
-                 sherpa.Choice(name='conv2_strides',range=[5]),
-                 sherpa.Choice(name='pool2_size',range=[5]),
-                 sherpa.Choice(name='pool2_type',range=['max']),
-                 sherpa.Choice(name='dense1_Nodes',range=[7]),
-                 sherpa.Choice(name='dense2_Nodes',range=[6]),
-                 sherpa.Choice(name='alpha',range=[0.0012]),
+                 sherpa.Choice(name='conv2_strides',range=[1]),
+                 sherpa.Choice(name='pool2_size',range=[10]),
+                 sherpa.Choice(name='pool2_type',range=['avg']),
+                 sherpa.Choice(name='dense1_Nodes',range=[6]),
+                 sherpa.Choice(name='dense2_Nodes',range=[4]),
+                 sherpa.Choice(name='alpha',range=[0.00096]),
                  sherpa.Choice(name='beta_1',range=[0.99]),
                  sherpa.Choice(name='beta_2',range=[0.999]),
                  sherpa.Choice(name='regL2',range=[0.001]),
-                 sherpa.Choice(name='batchSize',range=[32]),
+                 sherpa.Choice(name='batchSize',range=[16]),
                  sherpa.Choice(name='database',range=[database]),
                  sherpa.Discrete(name='seed',range=[0,2000]),
                  sherpa.Choice(name='nRepetitions',range=[1])
@@ -134,7 +134,7 @@ results=sherpa.optimize(parameters=hyperParameters,
                         scheduler=sherpa.schedulers.LocalScheduler(),
                         command='python -m lib.Sherpa_Trial_Script_Final', # Run with -m for local imports inside trial script
                         output_dir=output_dir,
-                        max_concurrent=10,
+                        max_concurrent=30,
                         disable_dashboard=True)
 
 # Kill leftover mongod process

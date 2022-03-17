@@ -59,7 +59,7 @@ import sherpa
 ######################################################
 
 # Database
-database='S_25_mlDatabase'
+database='RI_20_mlDatabase'
 
 # Defining Initial Hyperparameter space for Architecture Tuning
 
@@ -88,19 +88,19 @@ hyperParameter=[sherpa.Choice(name='actFunction',range=['swish','relu']),
                  sherpa.Choice(name='nRepetitions',range=[1])]
 
 # Defining Initial Seed Configuration
-seed_configuration={'actFunction' : 'relu',
-                    'conv1_Filters' : 3,
-                    'conv1_kernelSize' : 10,
-                    'conv1_strides' : 7,
-                    'pool1_size' : 4,
+seed_configuration={'actFunction' : 'swish',
+                    'conv1_Filters' : 1,
+                    'conv1_kernelSize' : 3,
+                    'conv1_strides' : 4,
+                    'pool1_size' : 3,
                     'pool1_type' : 'max',
                     'conv2_Filters' : 4,
-                    'conv2_kernelSize' : 1,
+                    'conv2_kernelSize' : 6,
                     'conv2_strides' : 1,
-                    'pool2_size' : 3,
-                    'pool2_type' : 'max',
-                    'dense1_Nodes' : 1,
-                    'dense2_Nodes' : 7,
+                    'pool2_size' : 9,
+                    'pool2_type' : 'avg',
+                    'dense1_Nodes' : 6,
+                    'dense2_Nodes' : 3,
                     'alpha' : 0.001,
                     'beta_1' : 0.99,
                     'beta_2' : 0.999,
