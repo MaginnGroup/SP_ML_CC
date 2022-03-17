@@ -25,17 +25,32 @@ This folder contains the intermediate results of the hyperparameter optimization
 
 ## Dependencies
 The following Python packages are needed:
+
   Flask==2.0.2
+  
   GPy==1.10.0
+  
   GPyOpt==1.2.6
+  
   keras==2.6.0
+  
   Keras-Preprocessing==1.1.2
+  
   numpy==1.19.5
+  
   pandas==1.3.3
+  
   parameter-sherpa==1.0.6
+  
   paramz==0.9.5
+  
   pymongo==3.12.0
+  
   scikit-learn==1.0
+  
   scipy==1.4.1
+  
   tensorflow==2.6.0
+  
   tensorflow-estimator==2.6.0
+  
