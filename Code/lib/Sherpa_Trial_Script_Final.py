@@ -192,9 +192,9 @@ if metric<bestMetric.iloc[-1,-1]:
     Y_Test_Predicted=ml.normalize(Y_Test_Predicted,method=labelNorm,skScaler=scaler_Y,reverse=True)[0]
     # Save Exp VS Predicted data
     numpy.savetxt(basePath+'_Y_Train.csv', Y_Train, delimiter=",")
-    numpy.savetxt(basePath+'_Y_Test.csv', Y_Test, delimiter=",")
+    numpy.savetxt(basePath+'_Y_Validation.csv', Y_Test, delimiter=",")
     numpy.savetxt(basePath+"_Y_Train_Predicted.csv", Y_Train_Predicted, delimiter=",")
-    numpy.savetxt(basePath+"_Y_Test_Predicted.csv", Y_Test_Predicted, delimiter=",")
+    numpy.savetxt(basePath+"_Y_Validation_Predicted.csv", Y_Test_Predicted, delimiter=",")
 
 # Finish trial by sending metrics
 client.send_metrics(trial=trial,iteration=1,objective=metric)
