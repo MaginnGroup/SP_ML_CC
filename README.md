@@ -18,7 +18,7 @@ This folder contains all ML databases (csv files) used in this work:
 It also contains the index file of the VT-2005 sigma profile database and a log file documenting the changes made in this work.
 
 ## Models
-This folder contains the TensorFlow models of each neural network developed (.h5 files), as well as the normalization weights of features and labels (sklearn scaler objetcs stoed in pkl files). CSV files with the results for the training and validation sets for each ML database are also included.
+This folder contains the TensorFlow models of each neural network developed (.h5 files), as well as the normalization weights of features and labels (sklearn scaler objects stored in pkl files). CSV files with the results for the training, validation, and testing sets for each ML database are also included.
 
 ## Sherpa_Logs
 This folder contains the intermediate results of the hyperparameter optimization for each neural network.
