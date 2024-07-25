@@ -1,7 +1,7 @@
 # SP_ML_CC
 GitHub Repository for the manuscript "Sigma Profiles in Deep Learning: Towards a Universal Molecular Descriptor". <br />
 Reference: <br />
-[https://doi.org/10.1039/D2CC01549H](https://doi.org/10.1039/D2CC01549H)
+[https://doi.org/10.1039/D2CC01549H](https://doi.org/10.1039/D2CC01549H) <br />
 Dinis O. Abranches, Yong Zhang, Edward J. Maginn, Yamil J. Colón. "Sigma profiles in deep learning: towards a universal molecular descriptor". Chem. Commun., 2022,58, 5630-5633
 
 ## Code
