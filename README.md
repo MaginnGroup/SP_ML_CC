@@ -1,7 +1,8 @@
 # SP_ML_CC
 GitHub Repository for the manuscript "Sigma Profiles in Deep Learning: Towards a Universal Molecular Descriptor". <br />
 Reference: <br />
-Abranches, D. O., Zhang, Y., Maginn, E. J., & Colón, Y. J. (2022). Sigma profiles in deep learning: towards a universal molecular descriptor. Chemical Communications, 58(37), 5630-5633.
+[https://doi.org/10.1039/D2CC01549H](https://doi.org/10.1039/D2CC01549H)
+Dinis O. Abranches, Yong Zhang, Edward J. Maginn, Yamil J. Colón. "Sigma profiles in deep learning: towards a universal molecular descriptor". Chem. Commun., 2022,58, 5630-5633
 
 ## Code
 This folder contains the Python code used to generate and fit the neural networks developed in this work, including the hyperparameter optimization. It also contains an example Jupyter Notebook.
